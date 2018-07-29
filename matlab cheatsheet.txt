@@ -1,0 +1,6 @@
+whos variable: Gives basic info about a variable
+
+sparse(i, j, v, m, n)	: Gives a sparse m-by-n matrix with values defined by v at positions [i, j]
+spones(S)		: Converts non-zero elements of sparse to ones. 
+full (S) 		: Converts sparse to normal matrix
+spy			: Visualize the sparsity pattern
